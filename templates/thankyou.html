@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You - Spectra 3D</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Staatliches', sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .thank-you {
+      padding: 50px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-you">
+    <h1>🎉 Thank You!</h1>
+    <p>Your message has been received. We'll get back to you soon.</p>
+    <a href="/" class="btn btn-dark mt-3">Back to Home</a>
+  </div>
+</body>
+</html>
